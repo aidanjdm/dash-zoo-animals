@@ -4,13 +4,13 @@ import dash_html_components as html
 import plotly.graph_objs as go
 
 ########### Pick variables
-tabtitle='zoo'
-myheading = 'Animals in the Zoo'
+tabtitle='forest'
+myheading = 'Animals in the Forest'
 myfavoritecolor='#C74A2F' # More colors are here: https://htmlcolorcodes.com/
-x_list=['giraffes', 'elephants', 'monkeys']
-y_list=[5, 2, 7]
-mytitle='My favorite animals'
-githublink='https://github.com/austinlasseter/zoo-animals-dash'
+x_list=['lemurs', 'pythons', 'birds of paradise']
+y_list=[7, 4, 3]
+mytitle='My favorite forest animals'
+githublink='https://github.com/aidanjdm/dash-zoo-animals'
 
 ########### Set up the chart
 mydata = [go.Bar(x=x_list,
